@@ -5,40 +5,46 @@ html {
 body {
   font-family: ' Inter ', sans-serif;
   line-height: 1.6;
+
 }
 
-h1,
-h2,
+
+
 p {
   margin: 0;
   padding: 0;
   font-size: 13px;
   font-weight: 1.3rem;
+
 }
 
-#main{
+h1{
   font-size: 30px;
   font-weight: 30rem;
   color: #c30052;
   margin-left: -35px;
+  margin-bottom: -15px;
+
 }
 
-#sub{
+h2{
   font-size:25px;
   font-weight: 2.5rem;
   color: #333;
   text-align: center;
+  margin: auto;
 }
 
-#mini{
+h3{
   font-size: 15px;
   font-weight: 1.5rem;
-
 }
 
-#para{
+
+p{
   font-size: 13px;
   font-weight: 1.3rem;
+
 }
 
 .container {
@@ -53,6 +59,7 @@ p {
   min-width: 25rem;
   padding: 1rem;
   margin: 1%;
+  color: white;
 }
 
 .card__horizontal {
@@ -61,23 +68,26 @@ p {
 
 }
 
-.color__sunrise{
+.card__box--gradient-sunrise,
+.btn__color--gradient-sunrise,
+.card__horizontal--gradient-sunrise{
   background-image: linear-gradient(90deg, #d53369 0%, #daae51 100%);
 }
 
-.color__frost{
+.card__box--gradient-frost,
+.btn__color--gradient-frost,
+.card__horizontal--gradient-frost{
   background-image: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
 }
 
-.color__lime{
+.card__box--gradient-lime,
+.btn__color--gradient-lime,
+.card__horizontal--gradient-lime{
   background-image: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
 }
 
-.white__text{
-  color: #ffff;
-}
 
-.box {
+.card__box {
   width: 100%;
   min-height: 20rem;
   border-radius: 0.7rem;
@@ -92,11 +102,13 @@ hr {
 button {
   border: none;
   border-radius: 0.3rem;
+  color: white;
   box-shadow: 0.3rem 0.3rem 1rem rgba(0, 0, 0, 0.444);
   cursor: pointer;
   display: block;
-  margin: 1rem 1rem 1rem 8rem;
+  margin: auto;
   padding: 1rem 2rem;
+  
 
 }
 
